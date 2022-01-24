@@ -1,19 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Post 1</h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin eros et sem congue, nec pulvinar tellus faucibus. Maecenas metus purus, porta ac laoreet a, condimentum vel justo. Aenean vel varius quam, feugiat blandit libero. Nulla porttitor sit amet lorem sed commodo. Integer vel ante massa. Sed risus lectus, gravida at ornare id, consequat at mauris. Cras egestas mauris ac metus suscipit, id sollicitudin metus molestie. Morbi sed neque vitae lectus fermentum rutrum fermentum pretium tortor. Nunc rutrum lacus quis consequat ullamcorper. Pellentesque placerat, justo quis ultrices congue, felis purus maximus velit, vel posuere tellus diam sit amet leo. Cras porttitor feugiat fringilla. Quisque ut porttitor lacus. Vestibulum efficitur vel felis sed scelerisque. Pellentesque augue ligula, vehicula at libero eu, gravida fermentum nunc. Sed egestas vitae neque vitae fermentum.
-    </p>
-    <p>
+{% extends "layout.html" %}
+{% block content %}
+<div class="row text-center">
+    <div class="col-md"></div>
+    <div class="col-md">
+        <h1>Post</h1>
+    </div>
+    <div class="col-md"></div>
+</div>
 
-Cras sit amet blandit eros. Proin convallis, mi et convallis venenatis, ex lectus rhoncus quam, sed tristique odio nunc vitae tortor. Nunc pharetra neque ut facilisis blandit. Etiam tristique semper lacus. Nunc in nisl velit. Sed sagittis at leo eget viverra. Mauris id mauris luctus, tempor mauris eget, aliquet ligula. Integer varius lorem lacus. Mauris vel ultricies urna. Sed posuere pulvinar rhoncus. Sed suscipit pellentesque ante quis interdum. Suspendisse quis dictum velit, id mollis libero. Duis nec ante risus. Etiam eleifend consectetur neque ac hendrerit. Integer dolor elit, blandit at hendrerit eget, ultricies eget nunc.
-    </p>
-</body>
-</html>
+<div class="row">
+<div class="col-md"></div>
+<div class="col-md">
+    <hr>
+</div>
+<div class="col-md"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin eros et sem congue, nec pulvinar tellus faucibus. Maecenas metus purus, porta ac laoreet a, condimentum vel justo. Aenean vel varius quam, feugiat blandit libero. Nulla porttitor sit amet lorem sed commodo. Integer vel ante massa. Sed risus lectus, gravida at ornare id, consequat at mauris. Cras egestas mauris ac metus suscipit, id sollicitudin metus molestie. Morbi sed neque vitae lectus fermentum rutrum fermentum pretium tortor. Nunc rutrum lacus quis consequat ullamcorper. Pellentesque placerat, justo quis ultrices congue, felis purus maximus velit, vel posuere tellus diam sit amet leo. Cras porttitor feugiat fringilla. Quisque ut porttitor lacus. Vestibulum efficitur vel felis sed scelerisque. Pellentesque augue ligula, vehicula at libero eu, gravida fermentum nunc. Sed egestas vitae neque vitae fermentum.
+        </p>
+    </div>
+    <div class="col-md-3"></div>
+    
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <p>
+            Cras sit amet blandit eros. Proin convallis, mi et convallis venenatis, ex lectus rhoncus quam, sed tristique odio nunc vitae tortor. Nunc pharetra neque ut facilisis blandit. Etiam tristique semper lacus. Nunc in nisl velit. Sed sagittis at leo eget viverra. Mauris id mauris luctus, tempor mauris eget, aliquet ligula. Integer varius lorem lacus. Mauris vel ultricies urna. Sed posuere pulvinar rhoncus. Sed suscipit pellentesque ante quis interdum. Suspendisse quis dictum velit, id mollis libero. Duis nec ante risus. Etiam eleifend consectetur neque ac hendrerit. Integer dolor elit, blandit at hendrerit eget, ultricies eget nunc.
+        </p>
+    </div>
+    <div class="col-md-3"></div>
+
+</div>
+    
+
+{% endblock %}
